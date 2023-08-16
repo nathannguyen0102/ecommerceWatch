@@ -1,0 +1,134 @@
+:root {
+  --yellow: #d5be8b;
+  --white: #ffffff;
+  --black: #190c05;
+  --text: #939393;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  color: var(--yellow);
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+/* product////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.productp-div {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  /* background-color: red; */
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.productp-div p:first-child {
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.productp-div h2 {
+  font-size: 60px;
+}
+
+.productp-div-img {
+  height: 500px;
+  width: 100%;
+}
+
+.productp-div-right i {
+  font-size: 30px;
+  color: var(--yellow);
+  padding-top: 20px;
+}
+
+.price-p {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Cinzel", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.review-p {
+  font-family: "Lato", sans-serif;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.product-btn-1 {
+  padding: 15px 35px;
+  background-color: var(--yellow);
+  color: var(--white);
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.product-btn-2 {
+  padding: 15px 30px;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: 500;
+}
+
+/* Detail ////////////////////////////////////////////////////////////////////////////////////////////////  */
+.detail-section {
+  padding-top: 50px;
+}
+
+.detail-div h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.detai-div p {
+  line-height: 1.3;
+}
+
+/* .review-p////////////////////////////////////////////////////////////////////////////////////////////////  */
+.review-div input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid var(--text);
+  margin: 10px 0;
+  padding: 10px;
+  line-height: 40px;
+  font-family: "lato", sans-serif;
+  color: black;
+}
+
+.review-div textarea {
+  height: 160px;
+  width: 100%;
+  resize: none;
+  padding: 0 10px;
+}
+
+.review-btn {
+  padding: 15px 35px;
+  background-color: var(--yellow);
+  color: var(--white);
+  margin-right: 10px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 16px;
+}
